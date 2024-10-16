@@ -7,38 +7,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-	<nav class="navbar background">
-		<ul class="nav-list">
-			<div class="logo">
-				<img src= "logo.png">
-			</div>
-			<li><a href="#web">Web Technology</a></li>
-			<li><a href="#program">C Programming</a></li>
-			<li><a href="#course">Courses</a></li>
-		</ul>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
 
-		<div class="rightNav">
-			<input type="text" name="search" id="search">
-			<button class="btn btn-sm">Search</button>
-		</div>
-	</nav>
+<body>
 
 	<section class="firstsection">
 		<div class="box-main">
 			<div class="firstHalf">
-				<h1 class="text-big" id="web">Web Technology</h1>
+				<h1 class="text-big" id="web">Hello!</h1>
 				<p class="text-small">
-					HTML stands for HyperText Markup Language.
-					It is used to design web pages using a markup
-					language. HTML is the combination of Hypertext
-					and Markup language. Hypertext defines the
-					link between the web pages. A markup language
-					is used to define the text document within tag
-					which defines the structure of web pages.
-					HTML is a markup language that is used by the
-					browser to manipulate text, images, and other
-					content to display it in the required format.
+					Welcome, person existing online.
+					
+					If you're here, it's most likely because you're interested in some math.
 				</p>
 
 
@@ -46,12 +31,12 @@
 		</div>
 	</section>
 
-	<section class="secondsection">
-		<div class="box-main">
-			<div class="firstHalf">
-				<h1 class="text-big" id="program">
-					C Programming
-				</h1>
+		<section class="secondsection">
+			<div class="box-main">
+				<div class="firstHalf">
+					<h1 class="text-big" id="program">
+						C Programming
+					</h1>
 				<p class="text-small">
 					C is a procedural programming language. It
 					was initially developed by Dennis Ritchie
@@ -65,58 +50,60 @@
 				</p>
 
 
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<section class="section">
-		<div class="paras">
-			<h1 class="sectionTag text-big">Java</h1>
+		<section class="section">
+			<div class="paras">
+				<h1 clindexass="sectionTag text-big">Java</h1>
 
-			<p class="sectionSubTag text-small">
-				Java has been one of the most popular
-				programming language for many years.
-				Java is Object Oriented. However it is
-				not considered as pure object oriented
-				as it provides support for primitive
-				data types (like int, char, etc) The
-				Java codes are first compiled into byte
-				code (machine independent code). Then
-				the byte code is run on Java Virtual
-				Machine (JVM) regardless of the
-				underlying architecture.
+				<p class="sectionSubTag text-small">
+					Java has been one of the most popular
+					programming language for many years.
+					Java is Object Oriented. However it is
+					not considered as pure object oriented
+					as it provides support for primitive
+					data types (like int, char, etc) The
+					Java codes are first compiled into byte
+					code (machine independent code). Then
+					the byte code is run on Java Virtual
+					Machine (JVM) regardless of the
+					underlying architecture.
+				</p>
+
+
+			</div>
+
+			<div class="thumbnail">
+				<img src= "img.png" alt="laptop image">
+			</div>
+		</section>
+
+		<nav class="navbar background">
+			<ul class="nav-list">
+				<div class="logo">
+					<img src= "logo.png">
+				</div>
+				<li><a href="https://sci-hub.3800808.com/">I think Sci-Hub is working here.</a></li>
+				<li><a href="#testlink">Testlink</a></li>
+			</ul>
+
+			<div class="rightNav">
+				<input type="text" name="search" id="search">
+				<button class="btn btn-sm">Search</button>
+			</div>
+		</nav>
+
+		<footer class="background">
+			<p class="text-footer">
+				Copyright ©-All rights are reserved
 			</p>
 
 
-		</div>
+		</footer>
+	</body>
 
-		<div class="thumbnail">
-			<img src= "img.png" alt="laptop image">
-		</div>
-	</section>
-
-	<nav class="navbar background">
-		<ul class="nav-list">
-			<div class="logo">
-				<img src= "logo.png">
-			</div>
-			<li><a href="https://sci-hub.3800808.com/">I think Sci-Hub is working here.</a></li>
-			<li><a href="#testlink">C Testlink</a></li>
-		</ul>
-
-		<div class="rightNav">
-			<input type="text" name="search" id="search">
-			<button class="btn btn-sm">Search</button>
-		</div>
-	</nav>
-
-	<footer class="background">
-		<p class="text-footer">
-			Copyright ©-All rights are reserved
-		</p>
-
-
-	</footer>
-</body>
+</div>
 
 </html>
